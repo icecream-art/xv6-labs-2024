@@ -23,7 +23,7 @@ int getpid(void);
 char* sbrk(int);
 int sleep(int);
 int uptime(void);
-
+//echo 1\n 2\n | ./xargs echo line
 // ulib.c
 int stat(const char*, struct stat*);
 char* strcpy(char*, const char*);
